@@ -7,7 +7,6 @@ function App (props) {
                 <HeaderMe />
                 <HeaderMenu />
                 <HeaderAbout />
-                {/* <HeaderMe /> */}
             </header>
             <MainContent />
         </HashRouter>

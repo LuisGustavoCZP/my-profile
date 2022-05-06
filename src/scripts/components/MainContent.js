@@ -5,14 +5,14 @@ function MainContent (props)
     return (
     <main id="content">
         <Switch>
-        <Route exact path="/" component={PageHome}/>
-        <Route path="/skills" component={PageSkills}/>
-        <Route path="/portfolio" component={PagePortflio}/>
-        <Route path="/contact" component={PageContact}/>
-        {/* <Route path="/contact" component={Contact}/>
-        <Route path="/about" component={About}/>
-        
-        <Route path="/profile/:username" component={Profile}/> */}
+            <Route exact path="/" component={PageHome}/>
+            <Route path="/skills" component={PageSkills}/>
+            <Route path="/portfolio" component={PagePortflio}/>
+            <Route path="/contact" component={PageContact}/>
+            {/* <Route path="/contact" component={Contact}/>
+            <Route path="/about" component={About}/>
+            
+            <Route path="/profile/:username" component={Profile}/> */}
         </Switch>
     </main>
     );
